@@ -5,6 +5,7 @@
 
 #
 def solution(chicken):
+
     total = 0
     while chicken >= 10:
         quotient,remainder = divmod(chicken,10)
