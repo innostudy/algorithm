@@ -4,6 +4,8 @@
 # 두 정수 a와 b가 매개변수로 주어질 때, a/b가 유한소수이면 1을, 무한소수라면 2를 return하도록 solution 함수를 완성해주세요.
 
 
+
+
 def solution(a, b):
     div = [];
     answer = 1;

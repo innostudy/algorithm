@@ -3,7 +3,6 @@
 # 쿠폰이 발급됩니다. 시켜먹은 치킨의 수 chicken이 매개변수로 주어질 때 받을 수
 # 있는 최대 서비스 치킨의 수를 return하도록 solution 함수를 완성해주세요.
 
-#
 def solution(chicken):
 
     total = 0
@@ -12,4 +11,8 @@ def solution(chicken):
         total = total + quotient;
         chicken = remainder + quotient;
     return total
+
+# 깃허브 테스트
+
+
 
