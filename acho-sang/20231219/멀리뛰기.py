@@ -17,3 +17,9 @@ def solution(n):
         dp[i] = dp[i-1] + dp[i-2]
     
     return dp[n-1] % 1234567
+
+def solution(n):
+    a, b = 0, 1
+    for i in range(n):
+        a, b = b, a+b
+    return b
